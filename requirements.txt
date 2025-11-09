@@ -19,3 +19,8 @@ notebook>=6.4.0
 
 # Dependencias adicionales útiles
 ipykernel>=6.0.0
+
+# Notas:
+# - urllib: Incluido en la librería estándar de Python (usado en download_sms_dataset.py)
+# - zipfile: Incluido en la librería estándar de Python (usado en download_sms_dataset.py)
+# - pathlib: Incluido en la librería estándar de Python (usado en download_sms_dataset.py)

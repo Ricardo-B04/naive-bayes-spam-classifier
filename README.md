@@ -57,12 +57,43 @@ pip install -r requirements.txt
 
 ### Paso 4: Preparar el dataset
 
-Si el dataset no está incluido, asegúrate de tener el archivo:
+Ejecuta el script para descargar automáticamente el dataset SMS Spam Collection:
+
+```bash
+python download_sms_dataset.py
+```
+
+Este script:
+- Descarga el dataset de UCI Machine Learning Repository
+- Lo procesa y convierte a formato CSV
+- Lo guarda en `data/sms_spam_collection.csv`
+- Muestra estadísticas del dataset descargado
+
+**Nota:** Si prefieres descargar manualmente, asegúrate de tener el archivo:
 - `data/sms_spam_collection.csv`
 
 El notebook incluye código de fallback con datos de ejemplo si no se encuentra el dataset principal.
 
 ## 📊 Uso
+
+### Scripts Disponibles
+
+#### `download_sms_dataset.py`
+Script para descargar e integrar el dataset SMS Spam Collection de UCI.
+
+**Uso:**
+```bash
+python download_sms_dataset.py
+```
+
+**Características:**
+- Descarga automática desde UCI Machine Learning Repository
+- Procesamiento y conversión a CSV
+- Estadísticas del dataset
+- Ejemplos de mensajes SPAM y HAM
+
+**Salida:**
+- `data/sms_spam_collection.csv` - Dataset procesado
 
 ### Ejecutar el Notebook
 
