@@ -1,0 +1,21 @@
+# Dependencias principales para el Clasificador Naive Bayes de SPAM
+# Python 3.8+
+
+# Computación numérica
+numpy>=1.21.0
+
+# Manipulación y análisis de datos
+pandas>=1.3.0
+
+# Visualización de datos
+matplotlib>=3.4.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Jupyter Notebook (opcional, pero recomendado)
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Dependencias adicionales útiles
+ipykernel>=6.0.0
